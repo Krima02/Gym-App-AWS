@@ -19,8 +19,8 @@ function App() {
 
     const endpoint =
       type === "signup"
-        ? "https://your-api-id.amazonaws.com/signup"
-        : "https://your-api-id.amazonaws.com/gym-access";
+       ? "https://ncp9ch0q4k.execute-api.us-east-1.amazonaws.com/signup"
+        : "https://ncp9ch0q4k.execute-api.us-east-1.amazonaws.com/gym-access";
 
     try {
       const res = await fetch(endpoint, {
